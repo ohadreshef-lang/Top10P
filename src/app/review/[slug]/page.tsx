@@ -188,13 +188,13 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
                   <div>
                     <span className="text-gray-500 text-sm">Starting Price</span>
                     <p className="text-3xl font-bold text-purple-600">
-                      ${platform.pricing.minPerMinute}/min
+                      ${platform.pricing.minPerMinute}/{platform.pricing.pricingUnit || 'min'}
                     </p>
                   </div>
                   <div>
                     <span className="text-gray-500 text-sm">Premium Advisors</span>
                     <p className="text-3xl font-bold text-gray-900">
-                      Up to ${platform.pricing.maxPerMinute}/min
+                      Up to ${platform.pricing.maxPerMinute}/{platform.pricing.pricingUnit || 'min'}
                     </p>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Starting Price</span>
-                    <span className="font-bold">${platform.pricing.minPerMinute}/min</span>
+                    <span className="font-bold">${platform.pricing.minPerMinute}/{platform.pricing.pricingUnit || 'min'}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Advisors</span>

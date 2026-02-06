@@ -402,10 +402,119 @@ Psiquicos is the clear choice for Spanish-speaking users or anyone interested in
     `,
   },
   {
+    id: 'psychic-center',
+    name: 'Psychic Center',
+    slug: 'psychic-center',
+    rank: 5,
+    logo: '/images/logos/psychic-center.png',
+    website: 'https://www.psychiccenter.com/',
+    rating: {
+      overall: 4.7,
+      psychicQuality: 4.8,
+      pricing: 4.6,
+      readingVariety: 4.5,
+      userExperience: 4.7,
+      customerSupport: 4.6,
+    },
+    pricing: {
+      minPerMinute: 2.00,
+      maxPerMinute: 10.99,
+      currency: 'USD',
+    },
+    specialOffer: {
+      text: 'First 10 minutes for $5',
+      code: null,
+      expiry: null,
+    },
+    features: {
+      chatReadings: false,
+      phoneReadings: true,
+      videoReadings: false,
+      mobileApp: false,
+      emailReadings: true,
+      scheduling: true,
+    },
+    readingTypes: [
+      'Love & Relationships',
+      'Tarot Reading',
+      'Mediumship',
+      'Astrology',
+      'Numerology',
+      'Clairaudience',
+    ],
+    categories: ['love', 'tarot', 'mediumship', 'astrology'],
+    pros: [
+      'Established since 1999',
+      'Affordable introductory pricing',
+      '100% satisfaction guarantee with up to 3 reimbursements',
+      'Loyalty rewards program with 10% cash back',
+      'Voice introductions from advisors',
+    ],
+    cons: [
+      'No mobile app',
+      'No chat or video readings',
+      'Limited category filters',
+    ],
+    bestFor: 'Budget-conscious seekers wanting an established platform',
+    advisorCount: 300,
+    foundedYear: 1999,
+    satisfactionGuarantee: true,
+    description: 'Psychic Center is a well-established platform offering phone-based psychic readings since 1999. With affordable rates, a generous introductory offer, and a loyalty rewards program, it\'s a solid choice for seekers who prefer voice readings.',
+    fullReview: `
+## Psychic Center Review 2026
+
+Psychic Center has been connecting seekers with trusted advisors since 1999, making it one of the longest-running psychic platforms online.
+
+### Established Reputation
+
+With over two decades in the industry, Psychic Center brings:
+- Proven track record since 1999
+- Third-party psychic screening process
+- Customer review-based quality control
+- Low-performing advisors are removed
+
+### Phone Reading Focus
+
+Psychic Center specializes in phone readings:
+- Direct voice connection with advisors
+- Voice introductions on advisor profiles
+- Mail function for scheduling and follow-ups
+- Personal, intimate reading experience
+
+### Affordable Pricing
+
+Psychic Center offers competitive rates:
+- First 10 minutes for just $5
+- Regular rates from $2 to $10.99/min
+- Psychics set their own rates
+- Monthly rewards: 10% cash back on $50+ spending
+- Birthday and loyalty bonuses
+
+### Advisor Profiles
+
+Each advisor profile includes:
+- Number of readings completed
+- Customer reviews and star ratings
+- Professional background
+- Written and voice introductions
+
+### Satisfaction Guarantee
+
+Psychic Center stands behind their service:
+- 100% satisfaction guarantee
+- Up to three reimbursements available
+- Customer-focused support team
+
+### Final Verdict
+
+Psychic Center is a dependable, budget-friendly platform ideal for those who prefer phone readings. Its long history and satisfaction guarantee provide peace of mind, while the rewards program adds ongoing value for regular users.
+    `,
+  },
+  {
     id: 'purple-ocean',
     name: 'Purple Ocean',
     slug: 'purple-ocean',
-    rank: 5,
+    rank: 6,
     logo: '/images/logos/purple-ocean.png',
     website: 'https://www.purpleocean.co/',
     rating: {
@@ -420,6 +529,7 @@ Psiquicos is the clear choice for Spanish-speaking users or anyone interested in
       minPerMinute: 1.99,
       maxPerMinute: 9.99,
       currency: 'USD',
+      pricingUnit: 'reading',
     },
     specialOffer: {
       text: 'First reading 50% off',

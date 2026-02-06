@@ -46,7 +46,7 @@ export default function ComparisonTable({ platforms, context = 'homepage' }: Com
               </td>
               <td className="px-4 py-4">
                 <span className="font-semibold text-gray-900">
-                  ${platform.pricing.minPerMinute}/min
+                  ${platform.pricing.minPerMinute}/{platform.pricing.pricingUnit || 'min'}
                 </span>
               </td>
               <td className="px-4 py-4">
