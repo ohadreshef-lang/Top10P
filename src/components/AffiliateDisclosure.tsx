@@ -17,14 +17,12 @@ export default function AffiliateDisclosure({ variant = 'banner' }: AffiliateDis
   }
 
   return (
-    <div className="bg-purple-50 border border-purple-100 rounded-lg px-4 py-3 mb-6">
-      <p className="text-purple-800 text-sm">
-        <strong>Affiliate Disclosure:</strong> We may receive compensation when you click links and make purchases.
-        This does not affect our rankings, which are based on independent research.{' '}
-        <Link href="/affiliate-disclosure" className="underline hover:no-underline">
-          Learn more
-        </Link>
-      </p>
-    </div>
+    <p className="text-gray-400 text-xs mb-4">
+      Affiliate Disclosure: We may receive compensation when you click links and make purchases.
+      This does not affect our rankings.{' '}
+      <Link href="/affiliate-disclosure" className="text-gray-500 underline hover:no-underline">
+        Learn more
+      </Link>
+    </p>
   );
 }
