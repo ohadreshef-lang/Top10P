@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { platforms, getPlatformBySlug } from '@/data/platforms';
@@ -95,9 +96,18 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
                 )}
               </div>
 
-              <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                {platform.name} Review 2026
-              </h1>
+              <div className="flex items-center gap-4 mb-4">
+                <Image
+                  src={platform.logo}
+                  alt={`${platform.name} logo`}
+                  width={48}
+                  height={48}
+                  className="rounded-xl"
+                />
+                <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+                  {platform.name} Review 2026
+                </h1>
+              </div>
 
               <div className="flex flex-wrap items-center gap-4 mb-4">
                 <RatingStars rating={platform.rating.overall} size="lg" />

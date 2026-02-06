@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Platform } from '@/types';
 import { getAffiliateLink } from '@/data/affiliate-links';
@@ -29,9 +30,18 @@ export default function PlatformCard({
       <div className="p-6">
         {/* Header */}
         <div className="flex items-start justify-between mb-4">
-          <div>
+          <div className="flex items-center gap-3">
+            <Image
+              src={platform.logo}
+              alt={`${platform.name} logo`}
+              width={40}
+              height={40}
+              className="rounded-lg"
+            />
+            <div>
             <h3 className="text-xl font-bold text-gray-900 mb-1">{platform.name}</h3>
             <RatingStars rating={platform.rating.overall} size="md" />
+            </div>
           </div>
           <div className="text-right">
             <div className="text-sm text-gray-500">Starting at</div>

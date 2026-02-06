@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { Platform } from '@/types';
 import { getAffiliateLink } from '@/data/affiliate-links';
@@ -36,8 +37,15 @@ export default function ComparisonTable({ platforms, context = 'homepage' }: Com
               <td className="px-4 py-4">
                 <Link
                   href={`/review/${platform.slug}`}
-                  className="font-semibold text-gray-900 hover:text-purple-600 transition-colors"
+                  className="flex items-center gap-2 font-semibold text-gray-900 hover:text-purple-600 transition-colors"
                 >
+                  <Image
+                    src={platform.logo}
+                    alt={`${platform.name} logo`}
+                    width={24}
+                    height={24}
+                    className="rounded"
+                  />
                   {platform.name}
                 </Link>
               </td>

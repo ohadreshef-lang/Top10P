@@ -6,7 +6,7 @@ export const platforms: Platform[] = [
     name: 'Purple Garden',
     slug: 'purple-garden',
     rank: 1,
-    logo: '/images/logos/purple-garden.png',
+    logo: '/images/logos/purple-garden.svg',
     website: 'https://www.purplegarden.co/',
     rating: {
       overall: 4.9,
@@ -99,7 +99,7 @@ Purple Garden earns our top spot for its combination of quality advisors, innova
     name: 'Keen',
     slug: 'keen',
     rank: 2,
-    logo: '/images/logos/keen.png',
+    logo: '/images/logos/keen.svg',
     website: 'https://www.keen.com/',
     rating: {
       overall: 4.8,
@@ -195,7 +195,7 @@ Keen earns high marks for affordability and selection. It's ideal for users who 
     name: 'Kasamba',
     slug: 'kasamba',
     rank: 3,
-    logo: '/images/logos/kasamba.png',
+    logo: '/images/logos/kasamba.svg',
     website: 'https://www.kasamba.com/',
     rating: {
       overall: 4.8,
@@ -298,7 +298,7 @@ Kasamba is the go-to platform for love readings and specialized spiritual servic
     name: 'Psiquicos',
     slug: 'psiquicos',
     rank: 4,
-    logo: '/images/logos/psiquicos.png',
+    logo: '/images/logos/psiquicos.svg',
     website: 'https://www.psiquicos.com/',
     rating: {
       overall: 4.7,
@@ -406,7 +406,7 @@ Psiquicos is the clear choice for Spanish-speaking users or anyone interested in
     name: 'Psychic Center',
     slug: 'psychic-center',
     rank: 5,
-    logo: '/images/logos/psychic-center.png',
+    logo: '/images/logos/psychic-center.svg',
     website: 'https://www.psychiccenter.com/',
     rating: {
       overall: 4.7,
@@ -515,7 +515,7 @@ Psychic Center is a dependable, budget-friendly platform ideal for those who pre
     name: 'Purple Ocean',
     slug: 'purple-ocean',
     rank: 6,
-    logo: '/images/logos/purple-ocean.png',
+    logo: '/images/logos/purple-ocean.svg',
     website: 'https://www.purpleocean.co/',
     rating: {
       overall: 4.6,
