@@ -61,6 +61,16 @@ export const affiliateLinks: AffiliateConfig = {
     'category-mediumship': 'https://www.psiquicos.com/',
     'category-astrology': 'https://www.psiquicos.com/',
   },
+  'psychic-center': {
+    default: 'https://www.psychiccenter.com/',
+    homepage: 'https://www.psychiccenter.com/',
+    review: 'https://www.psychiccenter.com/',
+    'category-love': 'https://www.psychiccenter.com/',
+    'category-tarot': 'https://www.psychiccenter.com/',
+    'category-career': 'https://www.psychiccenter.com/',
+    'category-mediumship': 'https://www.psychiccenter.com/',
+    'category-astrology': 'https://www.psychiccenter.com/',
+  },
   'purple-ocean': {
     default: 'https://www.purpleocean.co/',
     homepage: 'https://www.purpleocean.co/',
