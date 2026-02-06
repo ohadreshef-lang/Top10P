@@ -36,7 +36,7 @@ export default function PlatformCard({
           <div className="text-right">
             <div className="text-sm text-gray-500">Starting at</div>
             <div className="text-lg font-bold text-purple-600">
-              ${platform.pricing.minPerMinute}/min
+              ${platform.pricing.minPerMinute}/{platform.pricing.pricingUnit || 'min'}
             </div>
           </div>
         </div>

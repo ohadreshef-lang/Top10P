@@ -11,6 +11,7 @@ export interface PlatformPricing {
   minPerMinute: number;
   maxPerMinute: number;
   currency: string;
+  pricingUnit?: string;
 }
 
 export interface SpecialOffer {

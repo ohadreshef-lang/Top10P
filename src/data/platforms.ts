@@ -420,6 +420,7 @@ Psiquicos is the clear choice for Spanish-speaking users or anyone interested in
       minPerMinute: 1.99,
       maxPerMinute: 9.99,
       currency: 'USD',
+      pricingUnit: 'reading',
     },
     specialOffer: {
       text: 'First reading 50% off',
